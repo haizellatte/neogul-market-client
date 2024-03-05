@@ -8,6 +8,10 @@ const nextConfig = {
         hostname: "localhost",
         port: "5050",
       },
+      {
+        hostname:
+          "port-0-time-attack-fullstack-server-17xco2lltdolaae.sel5.cloudtype.app",
+      },
     ],
   },
 };

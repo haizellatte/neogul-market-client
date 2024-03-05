@@ -52,7 +52,7 @@ function DetailDealsPage(props: { params: { dealId: string } }) {
       <div className="w-full px-6 grid grid-cols-1 sm:grid-cols-2 pt-10 gap-y-10 ">
         {getDeal && getDeal.imgUrl ? (
           <Image
-            src={`http://localhost:5050/${getDeal.imgUrl}`}
+            src={`https://port-0-time-attack-fullstack-server-17xco2lltdolaae.sel5.cloudtype.app/${getDeal.imgUrl}`}
             width={420}
             height={500}
             alt="대표 이미지"

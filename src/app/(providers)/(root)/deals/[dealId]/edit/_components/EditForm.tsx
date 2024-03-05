@@ -69,7 +69,9 @@ function EditForm({ dealId, getByDeal }: EditFormProps) {
       if (!response) throw new Error("error");
 
       toast.success("게시물이 수정되었습니다!");
-      router.replace(`http://localhost:3000/deals/${dealId}`);
+      router.replace(
+        `https://time-attack-fullstack-client.vercel.app/deals/${dealId}`
+      );
 
       return response;
     } catch (error) {

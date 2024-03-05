@@ -5,11 +5,7 @@ const accessToken =
 
 const instance = axios.create({
   baseURL:
-    typeof window !== "undefined"
-      ? window.location.hostname === "localhost"
-        ? "http://localhost:5050"
-        : "http://localhost:5050"
-      : "http://localhost:5050",
+    "https://port-0-time-attack-fullstack-server-17xco2lltdolaae.sel5.cloudtype.app",
   headers: {
     Authorization: accessToken ? `Bearer ${accessToken}` : undefined,
   },

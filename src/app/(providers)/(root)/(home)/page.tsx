@@ -17,3 +17,5 @@ export default function HomePage() {
     </Page>
   );
 }
+
+export const revalidate = 5;

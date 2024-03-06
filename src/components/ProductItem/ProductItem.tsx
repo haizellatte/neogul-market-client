@@ -17,7 +17,7 @@ function ProductItem({ deal }: ProductItemProps) {
     <div className="grid gap-y-1">
       {imgUrl ? (
         <Image
-          src={`https://port-0-time-attack-fullstack-server-17xco2lltdolaae.sel5.cloudtype.app/${imgUrl}`}
+          src={`https://port-0-time-attack-fullstack-server-17xco2lltdolaae.sel5.cloudtype.app${imgUrl}`}
           width={288}
           height={240}
           alt="대표 이미지"

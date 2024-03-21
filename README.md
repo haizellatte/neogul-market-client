@@ -15,7 +15,7 @@
 ## 1. 프로젝트 소개
 
 유데미 X 사람인 풀스택 부트캠프에서 개인 과제로 진행한 **1인 프로젝트**입니다.  
-총 제작 기간: 2024.03.27 - 2024.03.29 (3 day)
+• 총 제작 기간: 2024.03.27 - 2024.03.29 (3 day)
 
 > 🔗 [발표 PPT](https://www.canva.com/design/DAF_a0H76nY/hAJ9HXTiwTIC9NB1jDGUyg/view?utm_content=DAF_a0H76nY&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 >

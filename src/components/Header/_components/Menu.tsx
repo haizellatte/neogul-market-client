@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const menus = [
-  { name: "구입하기", href: "/" },
+  // { name: "구입하기", href: "/" },
   { name: "판매하기", href: "/deals/create" },
   { name: "내 판매글", href: "/my/deals" },
 ];

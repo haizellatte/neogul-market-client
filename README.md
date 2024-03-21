@@ -1,4 +1,4 @@
-# <center>[너굴 마켓 🌿](https://neogul-market.vercel.app)</center>
+# <center>[너굴 마켓 : Client 🌿](https://neogul-market.vercel.app)</center>
 
 ![alt text](readme.asset/banner.png)
 

@@ -20,19 +20,17 @@ function SortTab() {
   };
 
   useEffect(() => {
-    if (deals) {
-      let sortedDeals = [...deals]; // deals.data가 DealResponseType[] 타입인 경우
-      if (activeSortTab === "조회순") {
-        sortedDeals.sort((a, b) => b.views - a.views);
-      } else if (activeSortTab === "관심순") {
-        sortedDeals.sort((a, b) => b.likes - a.likes);
-      } else {
-        // activeSortTab === "최신순"
-        sortedDeals.sort((a, b) => Number(b.createdAt) - Number(a.createdAt));
-      }
-      setDealData(sortedDeals);
+    let sortedDeals = [...deals];
+
+    if (activeSortTab === "조회순") {
+      sortedDeals.sort((a, b) => b.views - a.views);
+    } else if (activeSortTab === "관심순") {
+      sortedDeals.sort((a, b) => b.likes - a.likes);
+    } else {
+      sortedDeals.sort((a, b) => Number(b.createdAt) - Number(a.createdAt)); //* "최신순"
     }
-  }, [deals, activeSortTab]);
+    setDealData(sortedDeals);
+  }, [activeSortTab]);
 
   return (
     <div>

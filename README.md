@@ -1,6 +1,14 @@
 # <center>[너굴 마켓 🌿](https://neogul-market-client-1i755r1ja-haizellatte.vercel.app/)</center>
 
+![alt text](readme.asset/banner.png)
+
 ## 🌿 목차
+
+[1. 프로젝트 소개](https://github.com/haizellatte/neogul-market-client?tab=readme-ov-file#1-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%86%8C%EA%B0%9C)  
+[2. 서비스 소개](https://github.com/haizellatte/neogul-market-client?tab=readme-ov-file#2-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%86%8C%EA%B0%9C)  
+[3. 기술 스택](https://github.com/haizellatte/neogul-market-client?tab=readme-ov-file#3-%EA%B8%B0%EC%88%A0-%EC%8A%A4%ED%83%9D)  
+[4. 구현 기능](https://github.com/haizellatte/neogul-market-client?tab=readme-ov-file#4-%EA%B5%AC%ED%98%84-%EA%B8%B0%EB%8A%A5)  
+[5. 회고 / 느낀점](https://github.com/haizellatte/neogul-market-client?tab=readme-ov-file#4-%EA%B5%AC%ED%98%84-%EA%B8%B0%EB%8A%A5)
 
 <br />
 
